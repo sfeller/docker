@@ -9,7 +9,8 @@ services:
     environment:
      - ENV=development
      - PORT=4000
-     - DB=mongodb://mongodb:27017/todoDev
+#     - DB=mongodb://mongodb:27017/todoDev
+     - DB=mongodb://mongodb:27017/components
      - SECRET='to-do-app-secret'
 #  api-gateway:
 #    container_name: flasktodo_default
